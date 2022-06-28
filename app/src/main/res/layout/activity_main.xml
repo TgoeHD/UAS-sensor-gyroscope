@@ -1,48 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical">
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textY"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="x"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/xText"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="160dp"/>
+        android:text="Sensor Gyroscope UAS"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="195dp"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toTopOf="@+id/judul"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textY"
+        app:layout_constraintVertical_bias="0.513"
+        app:srcCompat="@drawable/masteguh" />
+
     <TextView
+        android:id="@+id/judul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="y"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/yText"
-        android:layout_below="@id/xText"
-        android:layout_alignStart="@id/xText"
-        android:layout_marginTop="60dp"/>
+        android:text="Teguh Satriyo"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.613" />
+
     <TextView
+        android:id="@+id/textX"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="z"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/zText"
-        android:layout_below="@id/yText"
-        android:layout_alignStart="@id/yText"
-        android:layout_marginTop="60dp"/>
+        android:text="20.01.53.0086"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/judul"
+        app:layout_constraintVertical_bias="0.068" />
 
     <Button
-        android:id="@+id/view"
-        android:layout_width="200dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="30dp"
-        android:layout_below="@id/zText"
-        android:backgroundTint="#000000"
-        android:layout_centerHorizontal="true"
-        android:text="Data yang tersimpan"
-        android:textColor="@android:color/white" />
+        android:id="@+id/sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="468dp"
+        android:backgroundTint="#2196F3"
+        android:text="SENSOR GYROSCOPE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textY" />
 
-</RelativeLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

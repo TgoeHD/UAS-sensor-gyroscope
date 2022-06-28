@@ -7,4 +7,11 @@
         <item name="colorAccent">@color/white</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="Theme.TugasSensorSQLite.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.TugasSensorSQLite.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.TugasSensorSQLite.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

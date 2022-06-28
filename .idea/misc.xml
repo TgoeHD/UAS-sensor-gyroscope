@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TugasSensorSQLite/app/src/main/res/layout/activity_list_view.xml" value="0.2" />
         <entry key="..\:/Users/HP/AndroidStudioProjects/TugasSensorSQLite/app/src/main/res/layout/activity_main.xml" value="0.1859375" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TugasSensorSQLite/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TugasSensorSQLite/app/src/main/res/layout/content_main.xml" value="0.2" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TugasSensorSQLite/app/src/main/res/layout/listview_data_layout.xml" value="0.2" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/TugasSensorSQLite/app/src/main/res/layout/menu.xml" value="0.1859375" />
       </map>
     </option>
   </component>
